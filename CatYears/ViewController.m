@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self reset];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,4 +26,47 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+
+-(void)reset
+
+{
+    self.textfieldyears.text=@"";
+    self.result.text=@"";
+}
+
+-(void)catYears
+{
+    if (self.textfieldyears.text.length > 0)
+    {
+        int humanAge = self.textfieldyears.text.intValue;
+        
+        int catYears = humanAge * 7;
+        
+        self.result.text = [NSString stringWithFormat:@"Your age in Cat Years is %d.",catYears];
+    }
+    else {
+        NSLog(@"Enter valid number");
+    }
+}
+
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [self catYears];
+    
+    return true;
+}
+
+- (IBAction)calculate:(id)sender
+{
+    [self catYears];
+    
+}
+
+- (IBAction)clear:(id)sender
+{
+    [self reset];
+}
 @end

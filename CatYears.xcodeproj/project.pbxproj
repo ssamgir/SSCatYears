@@ -15,6 +15,7 @@
 		E7607CE31D524966006AF3EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7607CE11D524966006AF3EC /* LaunchScreen.storyboard */; };
 		E7607CEE1D524966006AF3EC /* CatYearsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7607CED1D524966006AF3EC /* CatYearsTests.m */; };
 		E7607CF91D524966006AF3EC /* CatYearsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7607CF81D524966006AF3EC /* CatYearsUITests.m */; };
+		E76825271D54CB5E0093987C /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E76825261D54CB5E0093987C /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E7607CF41D524966006AF3EC /* CatYearsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatYearsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7607CF81D524966006AF3EC /* CatYearsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatYearsUITests.m; sourceTree = "<group>"; };
 		E7607CFA1D524966006AF3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76825261D54CB5E0093987C /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				E7607CD61D524966006AF3EC /* AppDelegate.h */,
 				E7607CD71D524966006AF3EC /* AppDelegate.m */,
 				E7607CD91D524966006AF3EC /* ViewController.h */,
+				E76825261D54CB5E0093987C /* images.jpeg */,
 				E7607CDA1D524966006AF3EC /* ViewController.m */,
 				E7607CDC1D524966006AF3EC /* Main.storyboard */,
 				E7607CDF1D524966006AF3EC /* Assets.xcassets */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7607CE31D524966006AF3EC /* LaunchScreen.storyboard in Resources */,
+				E76825271D54CB5E0093987C /* images.jpeg in Resources */,
 				E7607CE01D524966006AF3EC /* Assets.xcassets in Resources */,
 				E7607CDE1D524966006AF3EC /* Main.storyboard in Resources */,
 			);
@@ -496,6 +500,7 @@
 				E7607CFF1D524966006AF3EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7607D001D524966006AF3EC /* Build configuration list for PBXNativeTarget "CatYearsTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				E7607D021D524966006AF3EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7607D031D524966006AF3EC /* Build configuration list for PBXNativeTarget "CatYearsUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				E7607D051D524966006AF3EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
