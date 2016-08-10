@@ -2,7 +2,9 @@
 [![Programming Language](https://img.shields.io/badge/language-objective--c-ff69b4.svg)]()
 [![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/filp/whoops.svg?maxAge=2592000)]()
 
-#Simple ios application which will convert human age to cat years
+#:cat2:CAT YEARS:smiley_cat:
+
+###Simple ios application which will convert human age to cat years
 
 # Contents
 
